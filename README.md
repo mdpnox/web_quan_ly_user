@@ -1,1 +1,3 @@
-Trong terminal, nhập python run.py để chạy file -> file sẽ chạy uvicorn main:app --reload và npm run dev.
+Trong terminal:
+- web_quan_ly_user\frontend_webql\webqlu>npm install
+- Chạy file run.py: web_quan_ly_user>python run.py
