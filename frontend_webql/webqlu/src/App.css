@@ -1,0 +1,30 @@
+:root {
+  --mau-nen: #f8f9fa;
+  --mau-chinh: #3498db;
+  --mau-nguy-hiem: #e74c3c;
+  --mau-chu: #2c3e50;
+}
+body { margin: 0; font-family: sans-serif; background-color: var(--mau-nen); color: var(--mau-chu); }
+.khung-chinh { max-width: 1100px; margin: 0 auto; padding: 20px; }
+.thanh-tieu-de { text-align: center; margin-bottom: 25px; border-bottom: 2px solid #ddd; padding-bottom: 10px; }
+.bo-cuc-noi-dung { display: grid; grid-template-columns: 1fr 2fr; gap: 20px; }
+.khoi-hop { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+h3 { margin-top: 0; border-bottom: 1px solid #eee; padding-bottom: 10px; }
+.nhom-nhap-lieu { margin-bottom: 15px; }
+.nhom-nhap-lieu label { display: block; margin-bottom: 5px; font-weight: bold; font-size: 14px; }
+.nhom-nhap-lieu input, .nhom-nhap-lieu select { width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; }
+.nhom-nut-bam { display: flex; gap: 10px; }
+.nut-bam { flex: 1; padding: 10px; border: none; border-radius: 4px; font-weight: bold; cursor: pointer; }
+.nut-luu { background: var(--mau-chinh); color: white; }
+.nut-huy { background: #95a5a6; color: white; }
+table { width: 100%; border-collapse: collapse; }
+th, td { padding: 10px; text-align: left; border-bottom: 1px solid #eee; }
+th { background: #f1f2f6; }
+.nhan-vai-tro { padding: 3px 8px; border-radius: 10px; font-size: 12px; font-weight: bold; }
+.vai-tro-admin { background: #fadbd8; color: #c0392b; }
+.vai-tro-staff { background: #d5f5e3; color: #27ae60; }
+.vai-tro-user { background: #ebf5fb; color: #2980b9; }
+.nhom-hanh-dong { display: flex; gap: 10px; }
+.nut-icon { background: none; border: none; cursor: pointer; padding: 4px; }
+.nut-sua { color: #f39c12; }
+.nut-xoa { color: var(--mau-nguy-hiem); }
